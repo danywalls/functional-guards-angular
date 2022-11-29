@@ -6,9 +6,9 @@ import {DomainService} from '../domain.service';
 export const domainGuard = () => {
     const router = inject(Router);
     const service = inject(DomainService)
-    return service.isAvaliable().pipe(
+    return service.isAvailable().pipe(
     tap((value) => {
-      return !value ? router.navigate(['/noavaliable']) : true
+      return !value ? router.navigate(['/no-available']) : true
     }
   ))
 }

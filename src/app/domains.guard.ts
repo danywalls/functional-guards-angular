@@ -10,8 +10,8 @@ export class DomainsGuard implements CanActivate {
   }
 
   canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot) {
-     return this.domainService.isAvaliable().pipe(
-       tap(value =>  !value ?  this.router.navigate(['/noavaliable']) : true)
+     return this.domainService.isAvailable().pipe(
+       tap(value =>  !value ?  this.router.navigate(['/no-available']) : true)
      )
   }
 }

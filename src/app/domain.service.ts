@@ -4,7 +4,7 @@ import {of, tap} from 'rxjs';
 @Injectable({providedIn: 'root'})
 export class DomainService {
 
-  isAvaliable() {
+  isAvailable() {
     return of(false).pipe(
       tap((v) =>console.log(v) )
     )
