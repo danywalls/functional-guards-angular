@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ContainerLayoutComponent } from 'src/app/components/container-layout/container-layout.component';
 
@@ -10,7 +10,5 @@ import { ContainerLayoutComponent } from 'src/app/components/container-layout/co
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent {
-
-
 
 }
