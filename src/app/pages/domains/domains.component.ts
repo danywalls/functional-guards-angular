@@ -5,8 +5,7 @@ import { CommonModule } from '@angular/common';
   selector: 'app-domains',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './domains.component.html',
-  styleUrls: ['./domains.component.css']
+  templateUrl: './domains.component.html'
 })
 export class DomainsComponent  {
 
