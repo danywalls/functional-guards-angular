@@ -1,5 +1,5 @@
 import { Routes } from '@angular/router';
-import {domainGuard} from './guards/guards';
+import {domainGuard} from './guards/domain.guard';
 
 export const routes: Routes = [
   {
